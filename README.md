@@ -30,7 +30,6 @@ dependencies {
 
 </RelativeLayout>
 ```
-------
 ##RecyclerView自定义行列间距
 1、设置宫格布局、瀑布流布局间距
 ```java
@@ -115,6 +114,7 @@ public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
 }
 ```
 4、Demo效果
+
 ![这里写图片描述](http://img.blog.csdn.net/20170209191342155?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvam9obldjaGV1bmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-&nbsp;
-5、[点击下载示例源码](https://github.com/coderJohnZhang)
+
+5、[点击下载示例源码](https://github.com/coderJohnZhang/RVSpacing)
