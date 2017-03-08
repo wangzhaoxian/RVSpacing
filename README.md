@@ -75,7 +75,7 @@ public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 ```
 2、正确使用姿势
 ```java
-GridLayoutManager layoutManager = new GridLayoutManager(this, COLUMN, LinearLayoutManager.VERTICAL, false);
+GridLayoutManager layoutManager = new GridLayoutManager(this, COLUMN, GridLayoutManager.VERTICAL, false);
 mGridRv.setLayoutManager(layoutManager);
 mGridRv.addItemDecoration(new GridSpacingItemDecoration(COLUMN, getResources().getDimensionPixelSize(R.dimen.padding_middle), true));
 mGridRv.setHasFixedSize(true);
