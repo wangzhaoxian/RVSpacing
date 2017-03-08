@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initGridRv() {
-        GridLayoutManager layoutManager = new GridLayoutManager(this, COLUMN, LinearLayoutManager.VERTICAL, false);
+        GridLayoutManager layoutManager = new GridLayoutManager(this, COLUMN, GridLayoutManager.VERTICAL, false);
         mGridRv.setLayoutManager(layoutManager);
         mGridRv.addItemDecoration(new GridSpacingItemDecoration(COLUMN, getResources().getDimensionPixelSize(R.dimen.padding_middle), true));
         mGridRv.setHasFixedSize(true);
