@@ -1,4 +1,5 @@
-##RecyclerView用法
+## RecyclerView用法
+
 1、添加依赖
 
 在AS的build.gradle中添加依赖，然后同步一下就可以引入依赖包：
@@ -30,7 +31,8 @@ dependencies {
 
 </RelativeLayout>
 ```
-##RecyclerView自定义行列间距
+## RecyclerView自定义行列间距
+
 1、设置宫格布局、瀑布流布局间距
 ```java
 /**
